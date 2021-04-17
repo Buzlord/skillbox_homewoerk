@@ -244,5 +244,32 @@ td {
   object-fit: cover;
 }
 .btn-center {
+  font-family: "Gilroy Regular", sans-serif;
+  font-size: 18px;
+  width: 280px;
+  height: 80px;
+  cursor: pointer;
+  margin-top: -14px;
+  position: absolute;
+  left: 50%;
+  margin-left: -140px;
   text-align: center;
+  color: #2f1ce4;
+  border: #2f1ce4 solid;
+  display: inline-block;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+
+  text-decoration: none;
+  overflow: hidden;
+  outline: none;
+}
+.footer__pic {
+  width: 1920px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1840px;
+  bottom: 0;
 }
