@@ -265,11 +265,11 @@ td {
   outline: none;
 }
 .footer__pic {
+  /* <img src="img/footerwave.png" alt="" width="100%" /> */
+  background-image: url(/img/footerwave.png);
   width: 1920px;
-  margin: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 1840px;
-  bottom: 0;
+  height: 1010px;
+  position: relative;
+  left: -372px;
+  top: -320px;
 }
