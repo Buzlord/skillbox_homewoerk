@@ -41,6 +41,11 @@
 body {
   margin: 0;
   font-family: "Gilroy Regular", sans-serif;
+  background-image: url(../img/footerwave.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  padding-bottom: 0px;
 }
 
 a {
@@ -218,6 +223,7 @@ td {
 .parent {
   width: 1170px; /* для примера */
   margin: 0 auto;
+  height: 1864px;
 }
 .right {
   margin-right: 0;
@@ -263,13 +269,4 @@ td {
   text-decoration: none;
   overflow: hidden;
   outline: none;
-}
-.footer__pic {
-  /* <img src="img/footerwave.png" alt="" width="100%" /> */
-  background-image: url(/img/footerwave.png);
-  width: 1920px;
-  height: 1010px;
-  position: relative;
-  left: -372px;
-  top: -320px;
 }
